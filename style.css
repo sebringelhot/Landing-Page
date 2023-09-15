@@ -1,0 +1,94 @@
+#start {
+    margin:05px;
+    height:100vh;
+    display:grid;
+    grid-template-areas:     
+     "header"
+     "section"
+     "footer";
+       grid-template-rows: 50% 100% 20% ;
+       grid-template-columns:100%;
+       
+
+}
+
+.container {
+    
+    display:flex;
+    border: 1px solid black ;
+    height: 60px;
+    background-color: black;
+    justify-content: stretch;
+    width: 100%;
+    padding: 16px 0px;
+    color:white;
+    
+    
+    
+
+    
+}
+.menu ul{
+    color:white;
+    display:flex;
+    font-size: 20px;
+    padding-left: 150px;
+    
+   
+    
+    
+}
+ .contatos{
+    position:absolute;
+    margin-top: 0 Px;
+    right:0px;
+    top:0px;
+
+    
+
+}
+
+#corpo{
+    display:flex;
+    color:white;
+    border: 1px solid black ;
+    height:100%;
+    padding-top: 0%;
+    
+    background-image: url('./Assents/WhatsApp\ Image\ 2023-09-04\ at\ 23.00.07.jpeg');
+    background-repeat: no-repeat;
+    +
+   
+   
+    
+}
+.form{
+   
+    width:200px;
+    right: 0pxt;
+    Display: flex;
+    background-color: Black;
+border-top: 00px;
+border-right:500px;
+border-bottom: 200px;
+    
+}
+
+.lancamentos{
+    position:absolute;
+    right: 1000px;
+}
+
+.contatosfoot{
+display: flex;
+margin-top: 500px;
+padding: 40px;
+height: 70px;
+background-color: black;
+justify-content: space-between;
+width: 100%;
+    padding: 16px 0px;
+    color:white;
+
+}
+
