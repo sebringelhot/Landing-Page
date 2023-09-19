@@ -1,12 +1,12 @@
 #start {
-    margin:05px;
-    height:100vh;
+    margin:5px;
+    height:100%;
     display:grid;
     grid-template-areas:     
      "header"
      "section"
      "footer";
-       grid-template-rows: 50% 100% 20% ;
+       grid-template-rows: 25% 100% 100% ;
        grid-template-columns:100%;
        
 
@@ -18,22 +18,22 @@
     border: 1px solid black ;
     height: 60px;
     background-color: black;
-    justify-content: stretch;
+    justify-content: start;
     width: 100%;
-    padding: 16px 0px;
+    padding: 40px 0px;
     color:white;
+    font-size: 16px;
     
-    
-    
-
     
 }
+
 .menu ul{
     color:white;
     display:flex;
     font-size: 20px;
     padding-left: 150px;
-    
+    font-size: 20px;
+    justify-content: space-between;
    
     
     
@@ -52,16 +52,14 @@
     display:flex;
     color:white;
     border: 1px solid black ;
-    height:100%;
-    padding-top: 0%;
-    
     background-image: url('./Assents/WhatsApp\ Image\ 2023-09-04\ at\ 23.00.07.jpeg');
     background-repeat: no-repeat;
-    +
-   
+ 
    
     
 }
+
+
 .form{
    
     width:200px;
@@ -73,22 +71,54 @@ border-right:500px;
 border-bottom: 200px;
     
 }
-
-.lancamentos{
-    position:absolute;
-    right: 1000px;
+.slogan{
+    color: #fff;
+    font-family: "Reem Kufi Ink",Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+    font-weight: 600;
 }
 
-.contatosfoot{
-display: flex;
-margin-top: 500px;
-padding: 40px;
-height: 70px;
-background-color: black;
-justify-content: space-between;
-width: 100%;
-    padding: 16px 0px;
-    color:white;
-
+    .busca {
+        background-color: rgb(214, 214, 214);
+        box-sizing: border-box;
+        border: 1px solid; 
+        border-radius: 5px;
+        margin-left:150px;
+        width:200px;
+        height: 35px;
+        top: 100px;
+       
 }
+.busca input[type='text'] { border: transparent;float: left; height:100%;width: 80%;background:transparent;}
+             .busca button { float: left; height:100%;width: 15%;border: none; left: 100; padding:0px; cursor: pointer; }
+             .busca svg{ fill: black;
+             }
+
+.portfolio{
+
+    position: absolute;
+    top: 290px;
+    left:200px;
+}
+#rodape{
+    border: 1px solid black ;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    
+    padding: 40px;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+        padding: 16px 0px;
+        color:white;
+    
+}
+
+
 
